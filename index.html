@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html class="js0">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>%title%</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="%description%" />
+<meta name="keywords" content="%keywords%" />
+<link rel="stylesheet" href="style.css" />
+<script type="text/javascript">//<!--
+document.documentElement.className='js1';
+//--></script>
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+</head>
+<body>
+<div class="wrapper">
+<main class="content">
+<h1>Data filter based on CSS rules</h1>
+<div class="js-data-filter" data-filter-selector="tbody tr:td">
+
+<button class="js-data-filter-reset">Reset filter</button>
+
+<table>
+<caption>Bridgestone Tires</caption>
+
+<thead>
+<tr>
+<th>Name</th>
+<th>Width</th>
+<th>Ratio</th>
+<th>Diameter</th>
+<th>Index</th>
+</tr>
+
+<tr>
+<th><input style="width:4em" data-filter-id="0" /></th>
+<th><input style="width:4em" data-filter-id="1" /></th>
+<th><input style="width:4em" data-filter-id="2" /></th>
+<th><input style="width:4em" data-filter-id="3" /></th>
+<th><input style="width:4em" data-filter-id="4" /></th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr><td>ALENZA 001</td><td>225</td><td>60</td><td>18</td><td>100H</td></tr>
+<tr><td>ALENZA 001</td><td>235</td><td>60</td><td>16</td><td>100H</td></tr>
+<tr><td>ALENZA 001</td><td>235</td><td>55</td><td>18</td><td>100V</td></tr>
+<tr><td>ALENZA 001</td><td>255</td><td>45</td><td>19</td><td>100V</td></tr>
+<tr><td>ALENZA 001</td><td>235</td><td>55</td><td>19</td><td>101W</td></tr>
+<tr><td>ALENZA 001</td><td>255</td><td>40</td><td>20</td><td>101W</td></tr>
+<tr><td>ALENZA 001</td><td>255</td><td>45</td><td>20</td><td>101W</td></tr>
+<tr><td>ALENZA 001</td><td>225</td><td>65</td><td>17</td><td>102H</td></tr>
+<tr><td>ALENZA 001</td><td>235</td><td>55</td><td>20</td><td>102V</td></tr>
+<tr><td>ALENZA 001</td><td>245</td><td>45</td><td>19</td><td>102V</td></tr>
+<tr><td>ALENZA 001</td><td>245</td><td>50</td><td>20</td><td>102V</td></tr>
+<tr><td>ALENZA 001</td><td>235</td><td>60</td><td>18</td><td>103W</td></tr>
+<tr><td>ALENZA 001</td><td>265</td><td>45</td><td>21</td><td>104W</td></tr>
+<tr><td>ALENZA 001</td><td>265</td><td>45</td><td>20</td><td>104Y</td></tr>
+<tr><td>ALENZA 001</td><td>245</td><td>60</td><td>18</td><td>105H</td></tr>
+<tr><td>ALENZA 001</td><td>235</td><td>60</td><td>17</td><td>106H</td></tr>
+<tr><td>ALENZA 001</td><td>235</td><td>65</td><td>18</td><td>106V</td></tr>
+<tr><td>ALENZA 001</td><td>255</td><td>60</td><td>17</td><td>106V</td></tr>
+<tr><td>ALENZA 001</td><td>275</td><td>40</td><td>20</td><td>106Y</td></tr>
+<tr><td>ALENZA 001</td><td>275</td><td>40</td><td>21</td><td>107W</td></tr>
+<tr><td>ALENZA 001</td><td>255</td><td>50</td><td>19</td><td>107Y</td></tr>
+<tr><td>ALENZA 001</td><td>235</td><td>65</td><td>17</td><td>108V</td></tr>
+<tr><td>ALENZA 001</td><td>285</td><td>45</td><td>20</td><td>108W</td></tr>
+<tr><td>ALENZA 001</td><td>275</td><td>45</td><td>19</td><td>108Y</td></tr>
+<tr><td>ALENZA 001</td><td>255</td><td>50</td><td>20</td><td>109V</td></tr>
+<tr><td>ALENZA 001</td><td>275</td><td>50</td><td>20</td><td>109W</td></tr>
+<tr><td>ALENZA 001</td><td>255</td><td>55</td><td>18</td><td>109Y</td></tr>
+<tr><td>ALENZA 001</td><td>285</td><td>45</td><td>22</td><td>110H</td></tr>
+<tr><td>ALENZA 001</td><td>265</td><td>60</td><td>18</td><td>110V</td></tr>
+<tr><td>ALENZA 001</td><td>275</td><td>45</td><td>21</td><td>110W</td></tr>
+<tr><td>ALENZA 001</td><td>265</td><td>50</td><td>19</td><td>110Y</td></tr>
+<tr><td>ALENZA 001</td><td>275</td><td>45</td><td>20</td><td>110Y</td></tr>
+<tr><td>ALENZA 001</td><td>315</td><td>35</td><td>20</td><td>110Y</td></tr>
+<tr><td>ALENZA 001</td><td>275</td><td>50</td><td>22</td><td>111H</td></tr>
+<tr><td>ALENZA 001</td><td>265</td><td>50</td><td>20</td><td>111V</td></tr>
+<tr><td>ALENZA 001</td><td>275</td><td>55</td><td>19</td><td>111V</td></tr>
+<tr><td>ALENZA 001</td><td>255</td><td>55</td><td>19</td><td>111W</td></tr>
+<tr><td>ALENZA 001</td><td>285</td><td>45</td><td>19</td><td>111W</td></tr>
+<tr><td>ALENZA 001</td><td>255</td><td>60</td><td>18</td><td>112V</td></tr>
+<tr><td>ALENZA 001</td><td>285</td><td>50</td><td>20</td><td>112V</td></tr>
+<tr><td>ALENZA 001</td><td>275</td><td>50</td><td>21</td><td>113V</td></tr>
+<tr><td>ALENZA 001</td><td>275</td><td>55</td><td>20</td><td>113V</td></tr>
+<tr><td>ALENZA 001</td><td>275</td><td>60</td><td>18</td><td>113V</td></tr>
+<tr><td>ALENZA 001</td><td>275</td><td>60</td><td>20</td><td>114H</td></tr>
+<tr><td>ALENZA 001</td><td>295</td><td>45</td><td>20</td><td>114W</td></tr>
+<tr><td>ALENZA 001</td><td>285</td><td>60</td><td>18</td><td>116V</td></tr>
+<tr><td>ALENZA 001</td><td>285</td><td>65</td><td>17</td><td>116V</td></tr>
+<tr><td>ALENZA 001</td><td>215</td><td>60</td><td>17</td><td>96H</td></tr>
+<tr><td>ALENZA 001</td><td>235</td><td>45</td><td>20</td><td>96W</td></tr>
+<tr><td>ALENZA 001</td><td>235</td><td>50</td><td>18</td><td>97V</td></tr>
+<tr><td>ALENZA 001</td><td>225</td><td>55</td><td>17</td><td>97W</td></tr>
+<tr><td>ALENZA 001</td><td>215</td><td>65</td><td>16</td><td>98H</td></tr>
+<tr><td>ALENZA 001</td><td>225</td><td>55</td><td>18</td><td>98V</td></tr>
+<tr><td>ALENZA 001</td><td>215</td><td>55</td><td>18</td><td>99V</td></tr>
+<tr><td>ALENZA 001</td><td>225</td><td>55</td><td>19</td><td>99V</td></tr>
+<tr><td>ALENZA 001</td><td>225</td><td>60</td><td>17</td><td>99V</td></tr>
+<tr><td>ALENZA 001</td><td>235</td><td>50</td><td>19</td><td>99V</td></tr>
+<tr><td>ALENZA 001</td><td>235</td><td>55</td><td>17</td><td>99V</td></tr>
+<tr><td>ALENZA 001</td><td>245</td><td>45</td><td>20</td><td>99V</td></tr>
+<tr><td>DUELER A/T 001</td><td>235</td><td>60</td><td>16</td><td>100H</td></tr>
+<tr><td>DUELER A/T 001</td><td>215</td><td>70</td><td>16</td><td>100S</td></tr>
+<tr><td>DUELER A/T 001</td><td>215</td><td>75</td><td>15</td><td>100T</td></tr>
+<tr><td>DUELER A/T 001</td><td>215</td><td>65</td><td>16</td><td>102S</td></tr>
+<tr><td>DUELER A/T 001</td><td>225</td><td>70</td><td>16</td><td>103S</td></tr>
+<tr><td>DUELER A/T 001</td><td>225</td><td>75</td><td>16</td><td>104S</td></tr>
+<tr><td>DUELER A/T 001</td><td>245</td><td>60</td><td>18</td><td>105H</td></tr>
+<tr><td>DUELER A/T 001</td><td>235</td><td>70</td><td>16</td><td>106T</td></tr>
+<tr><td>DUELER A/T 001</td><td>245</td><td>70</td><td>16</td><td>111S</td></tr>
+<tr><td>DUELER A/T 001</td><td>245</td><td>75</td><td>16</td><td>111S</td></tr>
+<tr><td>DUELER A/T 001</td><td>245</td><td>65</td><td>17</td><td>111T</td></tr>
+<tr><td>DUELER A/T 001</td><td>255</td><td>60</td><td>18</td><td>112S</td></tr>
+<tr><td>DUELER A/T 001</td><td>265</td><td>65</td><td>17</td><td>112S</td></tr>
+<tr><td>DUELER A/T 001</td><td>265</td><td>70</td><td>16</td><td>112S</td></tr>
+<tr><td>DUELER A/T 001</td><td>265</td><td>75</td><td>16</td><td>112S</td></tr>
+<tr><td>DUELER A/T 001</td><td>265</td><td>70</td><td>15</td><td>112T</td></tr>
+<tr><td>DUELER A/T 001</td><td>265</td><td>60</td><td>18</td><td>114S</td></tr>
+<tr><td>DUELER A/T 001</td><td>275</td><td>70</td><td>16</td><td>114S</td></tr>
+<tr><td>DUELER A/T 001</td><td>275</td><td>65</td><td>17</td><td>115T</td></tr>
+<tr><td>DUELER A/T 001</td><td>285</td><td>75</td><td>16</td><td>116R</td></tr>
+<tr><td>DUELER A/T 001</td><td>285</td><td>60</td><td>18</td><td>116T</td></tr>
+<tr><td>DUELER A/T 001</td><td>205</td><td>70</td><td>15</td><td>96S</td></tr>
+<tr><td>DUELER A/T 001</td><td>225</td><td>60</td><td>17</td><td>99H</td></tr>
+<tr><td>DUELER A/T 697</td><td>235</td><td>75</td><td>15</td><td>104S</td></tr>
+<tr><td>DUELER A/T 697</td><td>235</td><td>85</td><td>16</td><td>114R</td></tr>
+<tr><td>DUELER H/L 400</td><td>245</td><td>50</td><td>20</td><td>102V</td></tr>
+<tr><td>DUELER H/L 400</td><td>255</td><td>50</td><td>19</td><td>107H</td></tr>
+<tr><td>DUELER H/L 400</td><td>255</td><td>55</td><td>18</td><td>109H</td></tr>
+<tr><td>DUELER H/P 92A</td><td>265</td><td>50</td><td>20</td><td>107V</td></tr>
+<tr><td>DUELER H/P SPORT</td><td>235</td><td>60</td><td>18</td><td>103W</td></tr>
+<tr><td>DUELER H/P SPORT</td><td>275</td><td>40</td><td>20</td><td>106W</td></tr>
+<tr><td>DUELER H/P SPORT</td><td>275</td><td>40</td><td>20</td><td>106Y</td></tr>
+<tr><td>DUELER H/P SPORT</td><td>255</td><td>50</td><td>19</td><td>107V</td></tr>
+<tr><td>DUELER H/P SPORT</td><td>255</td><td>50</td><td>19</td><td>107W</td></tr>
+<tr><td>DUELER H/P SPORT</td><td>285</td><td>40</td><td>21</td><td>109Y</td></tr>
+<tr><td>DUELER H/P SPORT</td><td>315</td><td>35</td><td>20</td><td>110W</td></tr>
+<tr><td>DUELER H/P SPORT</td><td>315</td><td>35</td><td>20</td><td>110Y</td></tr>
+<tr><td>DUELER H/P SPORT</td><td>275</td><td>50</td><td>19</td><td>112Y</td></tr>
+<tr><td>DUELER H/P SPORT</td><td>285</td><td>45</td><td>20</td><td>112Y</td></tr>
+<tr><td>DUELER H/P SPORT</td><td>305</td><td>40</td><td>20</td><td>112Y</td></tr>
+<tr><td>DUELER H/P SPORT</td><td>225</td><td>50</td><td>17</td><td>94H</td></tr>
+<tr><td>DUELER H/P SPORT</td><td>215</td><td>65</td><td>16</td><td>98H</td></tr>
+<tr><td>DUELER H/P SPORT</td><td>215</td><td>65</td><td>17</td><td>99V</td></tr>
+<tr><td>DUELER H/P SPORT</td><td>225</td><td>60</td><td>17</td><td>99V</td></tr>
+<tr><td>DUELER H/P SPORT AS</td><td>235</td><td>55</td><td>20</td><td>102H</td></tr>
+<tr><td>DUELER H/P SPORT AS</td><td>245</td><td>60</td><td>18</td><td>105V</td></tr>
+<tr><td>DUELER H/T 684II</td><td>265</td><td>60</td><td>18</td><td>110H</td></tr>
+<tr><td>DUELER H/T 684II</td><td>245</td><td>70</td><td>17</td><td>110S</td></tr>
+<tr><td>DUELER H/T 684II</td><td>275</td><td>50</td><td>22</td><td>111H</td></tr>
+<tr><td>DUELER M/T 674</td><td>215</td><td>75</td><td>16</td><td>100Q</td></tr>
+<tr><td>DUELER M/T 674</td><td>235</td><td>75</td><td>15</td><td>104Q</td></tr>
+<tr><td>DUELER M/T 674</td><td>245</td><td>75</td><td>16</td><td>111S</td></tr>
+<tr><td>DUELER M/T 674</td><td>265</td><td>75</td><td>16</td><td>112S</td></tr>
+<tr><td>DUELER M/T 674</td><td>225</td><td>75</td><td>16</td><td>115Q</td></tr>
+<tr><td>DUELER M/T 674</td><td>235</td><td>85</td><td>16</td><td>120Q</td></tr>
+<tr><td>DUELER M/T 674</td><td>245</td><td>70</td><td>17</td><td>120Q</td></tr>
+<tr><td>DUELER M/T 674</td><td>255</td><td>70</td><td>16</td><td>120Q</td></tr>
+<tr><td>ECOPIA EP150</td><td>175</td><td>65</td><td>14</td><td>82H</td></tr>
+<tr><td>ECOPIA EP150</td><td>175</td><td>70</td><td>13</td><td>82H</td></tr>
+<tr><td>ECOPIA EP150</td><td>185</td><td>60</td><td>14</td><td>82H</td></tr>
+<tr><td>ECOPIA EP150</td><td>175</td><td>70</td><td>14</td><td>84H</td></tr>
+<tr><td>ECOPIA EP150</td><td>185</td><td>65</td><td>14</td><td>86H</td></tr>
+<tr><td>ECOPIA EP150</td><td>185</td><td>70</td><td>13</td><td>86H</td></tr>
+<tr><td>ECOPIA EP150</td><td>185</td><td>65</td><td>15</td><td>88H</td></tr>
+<tr><td>ECOPIA EP150</td><td>185</td><td>70</td><td>14</td><td>88H</td></tr>
+<tr><td>ECOPIA EP150</td><td>195</td><td>60</td><td>15</td><td>88H</td></tr>
+<tr><td>ECOPIA EP150</td><td>195</td><td>65</td><td>15</td><td>91H</td></tr>
+<tr><td>ECOPIA EP150</td><td>195</td><td>70</td><td>14</td><td>91H</td></tr>
+<tr><td>ECOPIA EP150</td><td>205</td><td>60</td><td>15</td><td>91V</td></tr>
+<tr><td>ECOPIA EP150</td><td>205</td><td>65</td><td>15</td><td>94H</td></tr>
+<tr><td>ECOPIA EP150</td><td>205</td><td>70</td><td>15</td><td>96H</td></tr>
+<tr><td>ECOPIA EP200</td><td>185</td><td>55</td><td>16</td><td>83V</td></tr>
+<tr><td>ECOPIA EP200</td><td>185</td><td>60</td><td>15</td><td>84V</td></tr>
+<tr><td>ECOPIA EP200</td><td>215</td><td>60</td><td>16</td><td>95H</td></tr>
+<tr><td>ECOPIA EP200</td><td>205</td><td>65</td><td>16</td><td>95V</td></tr>
+<tr><td>ECOPIA EP200</td><td>225</td><td>60</td><td>16</td><td>98V</td></tr>
+<tr><td>ECOPIA EP300</td><td>175</td><td>65</td><td>15</td><td>84H</td></tr>
+<tr><td>ECOPIA EP300</td><td>215</td><td>50</td><td>17</td><td>91V</td></tr>
+<tr><td>ECOPIA EP300</td><td>225</td><td>45</td><td>17</td><td>91V</td></tr>
+<tr><td>ECOPIA EP300</td><td>215</td><td>55</td><td>17</td><td>94V</td></tr>
+<tr><td>ECOPIA EP300</td><td>225</td><td>50</td><td>17</td><td>94V</td></tr>
+<tr><td>ECOPIA EP300</td><td>245</td><td>45</td><td>18</td><td>96V</td></tr>
+<tr><td>ECOPIA EP300</td><td>225</td><td>55</td><td>17</td><td>97V</td></tr>
+<tr><td>ECOPIA EP850</td><td>215</td><td>70</td><td>16</td><td>100H</td></tr>
+<tr><td>ECOPIA EP850</td><td>235</td><td>60</td><td>16</td><td>100H</td></tr>
+<tr><td>ECOPIA EP850</td><td>215</td><td>70</td><td>17</td><td>101H</td></tr>
+<tr><td>ECOPIA EP850</td><td>235</td><td>55</td><td>19</td><td>101V</td></tr>
+<tr><td>ECOPIA EP850</td><td>225</td><td>65</td><td>17</td><td>102H</td></tr>
+<tr><td>ECOPIA EP850</td><td>225</td><td>70</td><td>16</td><td>103H</td></tr>
+<tr><td>ECOPIA EP850</td><td>235</td><td>55</td><td>17</td><td>103H</td></tr>
+<tr><td>ECOPIA EP850</td><td>245</td><td>55</td><td>19</td><td>103V</td></tr>
+<tr><td>ECOPIA EP850</td><td>255</td><td>50</td><td>19</td><td>103V</td></tr>
+<tr><td>ECOPIA EP850</td><td>255</td><td>70</td><td>15</td><td>108H</td></tr>
+<tr><td>ECOPIA EP850</td><td>235</td><td>75</td><td>15</td><td>109H</td></tr>
+<tr><td>ECOPIA EP850</td><td>255</td><td>65</td><td>16</td><td>109H</td></tr>
+<tr><td>ECOPIA EP850</td><td>255</td><td>55</td><td>18</td><td>109V</td></tr>
+<tr><td>ECOPIA EP850</td><td>255</td><td>65</td><td>17</td><td>110H</td></tr>
+<tr><td>ECOPIA EP850</td><td>265</td><td>60</td><td>18</td><td>110H</td></tr>
+<tr><td>ECOPIA EP850</td><td>245</td><td>65</td><td>17</td><td>111H</td></tr>
+<tr><td>ECOPIA EP850</td><td>245</td><td>70</td><td>16</td><td>111H</td></tr>
+<tr><td>ECOPIA EP850</td><td>265</td><td>65</td><td>17</td><td>112H</td></tr>
+<tr><td>ECOPIA EP850</td><td>265</td><td>70</td><td>15</td><td>112H</td></tr>
+<tr><td>ECOPIA EP850</td><td>265</td><td>70</td><td>16</td><td>112H</td></tr>
+<tr><td>ECOPIA EP850</td><td>275</td><td>70</td><td>16</td><td>114H</td></tr>
+<tr><td>ECOPIA EP850</td><td>275</td><td>65</td><td>17</td><td>115H</td></tr>
+<tr><td>ECOPIA EP850</td><td>285</td><td>65</td><td>17</td><td>116H</td></tr>
+<tr><td>ECOPIA EP850</td><td>285</td><td>60</td><td>18</td><td>116V</td></tr>
+<tr><td>ECOPIA EP850</td><td>205</td><td>65</td><td>16</td><td>95H</td></tr>
+<tr><td>ECOPIA EP850</td><td>205</td><td>70</td><td>15</td><td>96H</td></tr>
+<tr><td>ECOPIA EP850</td><td>215</td><td>60</td><td>17</td><td>96H</td></tr>
+<tr><td>ECOPIA EP850</td><td>205</td><td>70</td><td>16</td><td>97H</td></tr>
+<tr><td>ECOPIA EP850</td><td>235</td><td>50</td><td>18</td><td>97V</td></tr>
+<tr><td>ECOPIA EP850</td><td>215</td><td>65</td><td>16</td><td>98H</td></tr>
+<tr><td>ECOPIA EP850</td><td>215</td><td>55</td><td>18</td><td>99V</td></tr>
+<tr><td>ECOPIA EP850</td><td>225</td><td>60</td><td>17</td><td>99V</td></tr>
+<tr><td>POTENZA Adrenalin RE003</td><td>245</td><td>45</td><td>18</td><td>100W</td></tr>
+<tr><td>POTENZA Adrenalin RE003</td><td>235</td><td>50</td><td>18</td><td>101W</td></tr>
+<tr><td>POTENZA Adrenalin RE003</td><td>255</td><td>45</td><td>18</td><td>103W</td></tr>
+<tr><td>POTENZA Adrenalin RE003</td><td>195</td><td>50</td><td>15</td><td>82W</td></tr>
+<tr><td>POTENZA Adrenalin RE003</td><td>195</td><td>55</td><td>15</td><td>85W</td></tr>
+<tr><td>POTENZA Adrenalin RE003</td><td>205</td><td>45</td><td>16</td><td>87W</td></tr>
+<tr><td>POTENZA Adrenalin RE003</td><td>195</td><td>60</td><td>15</td><td>88V</td></tr>
+<tr><td>POTENZA Adrenalin RE003</td><td>205</td><td>45</td><td>17</td><td>88W</td></tr>
+<tr><td>POTENZA Adrenalin RE003</td><td>205</td><td>55</td><td>16</td><td>91W</td></tr>
+<tr><td>POTENZA Adrenalin RE003</td><td>215</td><td>45</td><td>17</td><td>91W</td></tr>
+<tr><td>POTENZA Adrenalin RE003</td><td>215</td><td>50</td><td>17</td><td>91W</td></tr>
+<tr><td>POTENZA Adrenalin RE003</td><td>225</td><td>45</td><td>17</td><td>91W</td></tr>
+<tr><td>POTENZA Adrenalin RE003</td><td>245</td><td>40</td><td>17</td><td>91W</td></tr>
+<tr><td>POTENZA Adrenalin RE003</td><td>225</td><td>40</td><td>18</td><td>92W</td></tr>
+<tr><td>POTENZA Adrenalin RE003</td><td>205</td><td>50</td><td>17</td><td>93W</td></tr>
+<tr><td>POTENZA Adrenalin RE003</td><td>215</td><td>55</td><td>16</td><td>93W</td></tr>
+<tr><td>POTENZA Adrenalin RE003</td><td>245</td><td>35</td><td>19</td><td>93W</td></tr>
+<tr><td>POTENZA Adrenalin RE003</td><td>215</td><td>55</td><td>17</td><td>94W</td></tr>
+<tr><td>POTENZA Adrenalin RE003</td><td>225</td><td>50</td><td>17</td><td>94W</td></tr>
+<tr><td>POTENZA Adrenalin RE003</td><td>235</td><td>45</td><td>17</td><td>94W</td></tr>
+<tr><td>POTENZA Adrenalin RE003</td><td>255</td><td>35</td><td>18</td><td>94W</td></tr>
+<tr><td>POTENZA Adrenalin RE003</td><td>215</td><td>60</td><td>16</td><td>95V</td></tr>
+<tr><td>POTENZA Adrenalin RE003</td><td>225</td><td>45</td><td>18</td><td>95W</td></tr>
+<tr><td>POTENZA Adrenalin RE003</td><td>225</td><td>55</td><td>16</td><td>95W</td></tr>
+<tr><td>POTENZA Adrenalin RE003</td><td>235</td><td>40</td><td>18</td><td>95W</td></tr>
+<tr><td>POTENZA Adrenalin RE003</td><td>245</td><td>45</td><td>17</td><td>95W</td></tr>
+<tr><td>POTENZA Adrenalin RE003</td><td>225</td><td>55</td><td>17</td><td>97W</td></tr>
+<tr><td>POTENZA Adrenalin RE003</td><td>245</td><td>40</td><td>18</td><td>97W</td></tr>
+<tr><td>POTENZA Adrenalin RE003</td><td>265</td><td>35</td><td>18</td><td>97W</td></tr>
+<tr><td>POTENZA Adrenalin RE003</td><td>235</td><td>45</td><td>18</td><td>98W</td></tr>
+<tr><td>POTENZA Adrenalin RE003</td><td>245</td><td>40</td><td>19</td><td>98W</td></tr>
+<tr><td>POTENZA Adrenalin RE003</td><td>255</td><td>40</td><td>18</td><td>99W</td></tr>
+<tr><td>POTENZA RE031</td><td>235</td><td>55</td><td>18</td><td>99V</td></tr>
+<tr><td>POTENZA RE040</td><td>235</td><td>55</td><td>17</td><td>99Y</td></tr>
+<tr><td>POTENZA RE050</td><td>245</td><td>45</td><td>17</td><td>95Y</td></tr>
+<tr><td>POTENZA RE050A</td><td>215</td><td>40</td><td>18</td><td>85Y</td></tr>
+<tr><td>POTENZA RE050A</td><td>225</td><td>40</td><td>18</td><td>88W</td></tr>
+<tr><td>POTENZA RE050A</td><td>225</td><td>35</td><td>19</td><td>88Y</td></tr>
+<tr><td>POTENZA RE050A</td><td>245</td><td>35</td><td>18</td><td>88Y</td></tr>
+<tr><td>POTENZA RE050A</td><td>205</td><td>50</td><td>17</td><td>89V</td></tr>
+<tr><td>POTENZA RE050A</td><td>255</td><td>35</td><td>18</td><td>90W</td></tr>
+<tr><td>POTENZA RE050A</td><td>225</td><td>45</td><td>17</td><td>91V</td></tr>
+<tr><td>POTENZA RE050A</td><td>225</td><td>45</td><td>17</td><td>91W</td></tr>
+<tr><td>POTENZA RE050A</td><td>225</td><td>45</td><td>17</td><td>91Y</td></tr>
+<tr><td>POTENZA RE050A</td><td>255</td><td>30</td><td>19</td><td>91Y</td></tr>
+<tr><td>POTENZA RE050A</td><td>255</td><td>40</td><td>17</td><td>94W</td></tr>
+<tr><td>POTENZA RE050A</td><td>225</td><td>50</td><td>18</td><td>95W</td></tr>
+<tr><td>POTENZA RE050A</td><td>275</td><td>35</td><td>18</td><td>95Y</td></tr>
+<tr><td>POTENZA RE050A</td><td>225</td><td>45</td><td>19</td><td>96W</td></tr>
+<tr><td>POTENZA RE050A</td><td>245</td><td>45</td><td>18</td><td>96W</td></tr>
+<tr><td>POTENZA RE050A</td><td>235</td><td>40</td><td>19</td><td>96Y</td></tr>
+<tr><td>POTENZA RE050A</td><td>275</td><td>40</td><td>18</td><td>99W</td></tr>
+<tr><td>POTENZA S001</td><td>225</td><td>55</td><td>17</td><td>101Y</td></tr>
+<tr><td>POTENZA S001</td><td>275</td><td>35</td><td>20</td><td>102Y</td></tr>
+<tr><td>POTENZA S001</td><td>255</td><td>45</td><td>18</td><td>103Y</td></tr>
+<tr><td>POTENZA S001</td><td>215</td><td>40</td><td>17</td><td>87Y</td></tr>
+<tr><td>POTENZA S001</td><td>225</td><td>35</td><td>18</td><td>87Y</td></tr>
+<tr><td>POTENZA S001</td><td>205</td><td>45</td><td>17</td><td>88Y</td></tr>
+<tr><td>POTENZA S001</td><td>225</td><td>40</td><td>19</td><td>89Y</td></tr>
+<tr><td>POTENZA S001</td><td>215</td><td>45</td><td>17</td><td>91Y</td></tr>
+<tr><td>POTENZA S001</td><td>235</td><td>35</td><td>19</td><td>91Y</td></tr>
+<tr><td>POTENZA S001</td><td>245</td><td>40</td><td>17</td><td>91Y</td></tr>
+<tr><td>POTENZA S001</td><td>225</td><td>40</td><td>18</td><td>92Y</td></tr>
+<tr><td>POTENZA S001</td><td>245</td><td>35</td><td>18</td><td>92Y</td></tr>
+<tr><td>POTENZA S001</td><td>205</td><td>50</td><td>17</td><td>93Y</td></tr>
+<tr><td>POTENZA S001</td><td>215</td><td>45</td><td>18</td><td>93Y</td></tr>
+<tr><td>POTENZA S001</td><td>205</td><td>55</td><td>16</td><td>94W</td></tr>
+<tr><td>POTENZA S001</td><td>215</td><td>55</td><td>17</td><td>94W</td></tr>
+<tr><td>POTENZA S001</td><td>225</td><td>45</td><td>17</td><td>94Y</td></tr>
+<tr><td>POTENZA S001</td><td>215</td><td>45</td><td>20</td><td>95W</td></tr>
+<tr><td>POTENZA S001</td><td>225</td><td>50</td><td>18</td><td>95W</td></tr>
+<tr><td>POTENZA S001</td><td>225</td><td>45</td><td>18</td><td>95Y</td></tr>
+<tr><td>POTENZA S001</td><td>235</td><td>40</td><td>18</td><td>95Y</td></tr>
+<tr><td>POTENZA S001</td><td>225</td><td>45</td><td>19</td><td>96Y</td></tr>
+<tr><td>POTENZA S001</td><td>255</td><td>35</td><td>19</td><td>96Y</td></tr>
+<tr><td>POTENZA S001</td><td>235</td><td>45</td><td>17</td><td>97Y</td></tr>
+<tr><td>POTENZA S001</td><td>245</td><td>40</td><td>18</td><td>97Y</td></tr>
+<tr><td>POTENZA S001</td><td>255</td><td>35</td><td>20</td><td>97Y</td></tr>
+<tr><td>POTENZA S001</td><td>225</td><td>50</td><td>17</td><td>98Y</td></tr>
+<tr><td>POTENZA S001</td><td>255</td><td>40</td><td>17</td><td>98Y</td></tr>
+<tr><td>POTENZA S001</td><td>225</td><td>55</td><td>16</td><td>99W</td></tr>
+<tr><td>POTENZA S001</td><td>245</td><td>40</td><td>20</td><td>99Y</td></tr>
+<tr><td>POTENZA S001</td><td>245</td><td>45</td><td>17</td><td>99Y</td></tr>
+<tr><td>POTENZA S001</td><td>255</td><td>40</td><td>18</td><td>99Y</td></tr>
+<tr><td>POTENZA S001</td><td>285</td><td>35</td><td>19</td><td>99Y</td></tr>
+<tr><td>POTENZA S007</td><td>255</td><td>40</td><td>20</td><td>101Y</td></tr>
+<tr><td>POTENZA S007</td><td>295</td><td>35</td><td>20</td><td>105Y</td></tr>
+<tr><td>POTENZA S007</td><td>245</td><td>35</td><td>20</td><td>95Y</td></tr>
+<tr><td>POTENZA S007</td><td>275</td><td>30</td><td>20</td><td>97Y</td></tr>
+<tr><td>POTENZA S007A</td><td>245</td><td>45</td><td>18</td><td>100Y</td></tr>
+<tr><td>POTENZA S007A</td><td>255</td><td>40</td><td>19</td><td>100Y</td></tr>
+<tr><td>POTENZA S007A</td><td>275</td><td>35</td><td>19</td><td>100Y</td></tr>
+<tr><td>POTENZA S007A</td><td>255</td><td>40</td><td>20</td><td>101Y</td></tr>
+<tr><td>POTENZA S007A</td><td>265</td><td>40</td><td>18</td><td>101Y</td></tr>
+<tr><td>POTENZA S007A</td><td>285</td><td>35</td><td>18</td><td>101Y</td></tr>
+<tr><td>POTENZA S007A</td><td>295</td><td>30</td><td>20</td><td>101Y</td></tr>
+<tr><td>POTENZA S007A</td><td>265</td><td>40</td><td>19</td><td>102Y</td></tr>
+<tr><td>POTENZA S007A</td><td>275</td><td>35</td><td>20</td><td>102Y</td></tr>
+<tr><td>POTENZA S007A</td><td>275</td><td>40</td><td>18</td><td>103Y</td></tr>
+<tr><td>POTENZA S007A</td><td>305</td><td>30</td><td>20</td><td>103Y</td></tr>
+<tr><td>POTENZA S007A</td><td>255</td><td>45</td><td>19</td><td>104Y</td></tr>
+<tr><td>POTENZA S007A</td><td>265</td><td>40</td><td>20</td><td>104Y</td></tr>
+<tr><td>POTENZA S007A</td><td>275</td><td>40</td><td>19</td><td>105Y</td></tr>
+<tr><td>POTENZA S007A</td><td>295</td><td>35</td><td>20</td><td>105Y</td></tr>
+<tr><td>POTENZA S007A</td><td>275</td><td>40</td><td>20</td><td>106Y</td></tr>
+<tr><td>POTENZA S007A</td><td>245</td><td>40</td><td>19</td><td>98Y</td></tr>
+<tr><td>POTENZA S007A</td><td>245</td><td>45</td><td>19</td><td>98Y</td></tr>
+<tr><td>POTENZA S007A</td><td>245</td><td>40</td><td>20</td><td>99Y</td></tr>
+<tr><td>POTENZA S007A</td><td>265</td><td>35</td><td>20</td><td>99Y</td></tr>
+<tr><td>TURANZA ER30</td><td>245</td><td>50</td><td>18</td><td>100W</td></tr>
+<tr><td>TURANZA ER30</td><td>285</td><td>45</td><td>19</td><td>107V</td></tr>
+<tr><td>TURANZA ER30</td><td>235</td><td>65</td><td>17</td><td>108V</td></tr>
+<tr><td>TURANZA ER300</td><td>195</td><td>55</td><td>16</td><td>87H</td></tr>
+<tr><td>TURANZA ER300</td><td>195</td><td>55</td><td>16</td><td>87V</td></tr>
+<tr><td>TURANZA ER300</td><td>205</td><td>55</td><td>16</td><td>91W</td></tr>
+<tr><td>TURANZA ER300</td><td>225</td><td>45</td><td>17</td><td>91W</td></tr>
+<tr><td>TURANZA ER300</td><td>225</td><td>60</td><td>16</td><td>98Y</td></tr>
+<tr><td>TURANZA ER300</td><td>245</td><td>45</td><td>17</td><td>99Y</td></tr>
+<tr><td>TURANZA ER33</td><td>225</td><td>40</td><td>18</td><td>88Y</td></tr>
+<tr><td>TURANZA ER33</td><td>255</td><td>35</td><td>18</td><td>90Y</td></tr>
+<tr><td>TURANZA ER33</td><td>235</td><td>45</td><td>18</td><td>94Y</td></tr>
+<tr><td>TURANZA ER42</td><td>245</td><td>50</td><td>18</td><td>100W</td></tr>
+<tr><td>TURANZA T001</td><td>235</td><td>60</td><td>16</td><td>100W</td></tr>
+<tr><td>TURANZA T001</td><td>185</td><td>60</td><td>14</td><td>82H</td></tr>
+<tr><td>TURANZA T001</td><td>195</td><td>50</td><td>15</td><td>82V</td></tr>
+<tr><td>TURANZA T001</td><td>195</td><td>55</td><td>15</td><td>85V</td></tr>
+<tr><td>TURANZA T001</td><td>195</td><td>55</td><td>16</td><td>87V</td></tr>
+<tr><td>TURANZA T001</td><td>185</td><td>65</td><td>15</td><td>88H</td></tr>
+<tr><td>TURANZA T001</td><td>195</td><td>60</td><td>15</td><td>88V</td></tr>
+<tr><td>TURANZA T001</td><td>215</td><td>45</td><td>16</td><td>90V</td></tr>
+<tr><td>TURANZA T001</td><td>195</td><td>65</td><td>15</td><td>91V</td></tr>
+<tr><td>TURANZA T001</td><td>205</td><td>60</td><td>15</td><td>91V</td></tr>
+<tr><td>TURANZA T001</td><td>205</td><td>60</td><td>16</td><td>92V</td></tr>
+<tr><td>TURANZA T001</td><td>225</td><td>40</td><td>18</td><td>92W</td></tr>
+<tr><td>TURANZA T001</td><td>205</td><td>65</td><td>15</td><td>94V</td></tr>
+<tr><td>TURANZA T001</td><td>215</td><td>55</td><td>17</td><td>94V</td></tr>
+<tr><td>TURANZA T001</td><td>205</td><td>55</td><td>16</td><td>94W</td></tr>
+<tr><td>TURANZA T001</td><td>205</td><td>65</td><td>16</td><td>95H</td></tr>
+<tr><td>TURANZA T001</td><td>215</td><td>60</td><td>16</td><td>95V</td></tr>
+<tr><td>TURANZA T001</td><td>225</td><td>55</td><td>16</td><td>95V</td></tr>
+<tr><td>TURANZA T001</td><td>215</td><td>55</td><td>16</td><td>97W</td></tr>
+<tr><td>TURANZA T001</td><td>225</td><td>60</td><td>16</td><td>98W</td></tr>
+<tr><td>TURANZA T005</td><td>245</td><td>45</td><td>18</td><td>100Y</td></tr>
+<tr><td>TURANZA T005</td><td>245</td><td>50</td><td>18</td><td>100Y</td></tr>
+<tr><td>TURANZA T005</td><td>255</td><td>40</td><td>19</td><td>100Y</td></tr>
+<tr><td>TURANZA T005</td><td>275</td><td>35</td><td>19</td><td>100Y</td></tr>
+<tr><td>TURANZA T005</td><td>225</td><td>55</td><td>17</td><td>101W</td></tr>
+<tr><td>TURANZA T005</td><td>245</td><td>50</td><td>19</td><td>101W</td></tr>
+<tr><td>TURANZA T005</td><td>225</td><td>55</td><td>18</td><td>102Y</td></tr>
+<tr><td>TURANZA T005</td><td>245</td><td>45</td><td>19</td><td>102Y</td></tr>
+<tr><td>TURANZA T005</td><td>275</td><td>40</td><td>20</td><td>102Y</td></tr>
+<tr><td>TURANZA T005</td><td>255</td><td>45</td><td>18</td><td>103Y</td></tr>
+<tr><td>TURANZA T005</td><td>275</td><td>40</td><td>19</td><td>105Y</td></tr>
+<tr><td>TURANZA T005</td><td>295</td><td>40</td><td>21</td><td>111W</td></tr>
+<tr><td>TURANZA T005</td><td>215</td><td>45</td><td>17</td><td>87W</td></tr>
+<tr><td>TURANZA T005</td><td>205</td><td>55</td><td>16</td><td>91W</td></tr>
+<tr><td>TURANZA T005</td><td>205</td><td>55</td><td>17</td><td>91W</td></tr>
+<tr><td>TURANZA T005</td><td>225</td><td>45</td><td>17</td><td>91W</td></tr>
+<tr><td>TURANZA T005</td><td>205</td><td>60</td><td>16</td><td>92H</td></tr>
+<tr><td>TURANZA T005</td><td>225</td><td>40</td><td>18</td><td>92W</td></tr>
+<tr><td>TURANZA T005</td><td>225</td><td>45</td><td>19</td><td>92W</td></tr>
+<tr><td>TURANZA T005</td><td>225</td><td>40</td><td>19</td><td>93W</td></tr>
+<tr><td>TURANZA T005</td><td>245</td><td>40</td><td>18</td><td>93Y</td></tr>
+<tr><td>TURANZA T005</td><td>235</td><td>45</td><td>17</td><td>94W</td></tr>
+<tr><td>TURANZA T005</td><td>255</td><td>35</td><td>18</td><td>94Y</td></tr>
+<tr><td>TURANZA T005</td><td>245</td><td>45</td><td>17</td><td>95W</td></tr>
+<tr><td>TURANZA T005</td><td>225</td><td>45</td><td>18</td><td>95Y</td></tr>
+<tr><td>TURANZA T005</td><td>235</td><td>40</td><td>18</td><td>95Y</td></tr>
+<tr><td>TURANZA T005</td><td>245</td><td>40</td><td>17</td><td>95Y</td></tr>
+<tr><td>TURANZA T005</td><td>255</td><td>35</td><td>19</td><td>96Y</td></tr>
+<tr><td>TURANZA T005</td><td>265</td><td>35</td><td>18</td><td>97Y</td></tr>
+<tr><td>TURANZA T005</td><td>225</td><td>50</td><td>17</td><td>98W</td></tr>
+<tr><td>TURANZA T005</td><td>235</td><td>45</td><td>18</td><td>98Y</td></tr>
+<tr><td>TURANZA T005</td><td>245</td><td>40</td><td>19</td><td>98Y</td></tr>
+<tr><td>TURANZA T005</td><td>245</td><td>40</td><td>19</td><td>98Y</td></tr>
+<tr><td>TURANZA T005</td><td>255</td><td>35</td><td>21</td><td>98Y</td></tr>
+<tr><td>TURANZA T005</td><td>245</td><td>45</td><td>20</td><td>99Y</td></tr>
+<tr><td>TURANZA T005A</td><td>235</td><td>45</td><td>18</td><td>94W</td></tr>
+
+</tbody>
+</table>
+</div>
+</main>
+<aside class="sidebar">
+<ul class="m21"
+><li class="m21-i"><a href="#" class="m21-a">Bridgestone</a
+><ul class="m22"
+><li class="m22-i"><a href="#" class="m22-a">Alenza</a></li
+><li class="m22-i"><a href="#" class="m22-a">Dueler</a></li
+><li class="m22-i"><a href="#" class="m22-a">Ecopia</a></li
+><li class="m22-i"><a href="#" class="m22-a">Potenza</a></li
+><li class="m22-i"><a href="#" class="m22-a">Turanza</a></li
+></ul></li
+><li class="m21-i"><a href="#" class="m21-a">Michelin</a
+><ul class="m22"
+><li class="m22-i"><a href="#" class="m22-a">Agilis</a></li
+><li class="m22-i"><a href="#" class="m22-a">CrossClimate</a></li
+><li class="m22-i"><a href="#" class="m22-a">Diamaris</a></li
+><li class="m22-i"><a href="#" class="m22-a">Energy</a></li
+><li class="m22-i"><a href="#" class="m22-a">Latitude</a></li
+><li class="m22-i"><a href="#" class="m22-a">Pilot</a></li
+><li class="m22-i"><a href="#" class="m22-a">Primacy</a></li
+></ul></li
+><li class="m21-i"><a href="#" class="m21-a">Nokian</a
+><ul class="m22"
+><li class="m22-i"><a href="#" class="m22-a">Hakka</a></li
+><li class="m22-i"><a href="#" class="m22-a">Hakkapeliitta</a></li
+><li class="m22-i"><a href="#" class="m22-a">Nordman</a></li
+><li class="m22-i"><a href="#" class="m22-a">Outpost</a></li
+><li class="m22-i"><a href="#" class="m22-a">Rockproof</a></li
+><li class="m22-i"><a href="#" class="m22-a">Snowproof</a></li
+></ul></li
+></ul>
+</aside>
+</div><!--/wrapper-->
+<header class="header">
+<div class="logo">Company<br> Name</div>
+<div class="h-i h-i_phon"><div class="h-term">Phone</div><div class="h-def">800 555-69-69</div></div>
+<div class="h-i"><div class="h-term">E-Mail</div><div class="h-def">email@domain.tld</div></div>
+<input type="checkbox" class="m1-inp" id="m1-inp" checked /><label class="m1-lab" for="m1-inp"><s></s></label><ul class="m1"
+><li class="m1-i"><a href="#" class="m1-a">About Us</a></li
+><li class="m1-i"><a href="#" class="m1-a">Contact Us</a></li
+><li class="m1-i"><a href="#" class="m1-a">Deliveries</a></li
+><li class="m1-i"><a href="#" class="m1-a">FAQs</a></li
+></ul></header>
+<footer class="footer">
+<ul class="m3">
+<li class="m3-i"><a href="#sitemap.xml" class="m3-a">Sitemap</a></li>
+<li class="m3-copy">&copy; 2022 domain.tld</li>
+</ul>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
